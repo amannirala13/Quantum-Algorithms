@@ -9,6 +9,8 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="./res/styles/index.css">
+	<link rel = "icon" href="./res/ico/Platonicc.png" 
+        type = "image/x-icon"> 
 	 
 	<script src="./res/scripts/index.js"></script>
 
@@ -16,11 +18,32 @@
 </head>
 
 <body style="color: #343A40">
-	<div class = "container-fluid" style="padding-left: 5%">
-		<h1>Quantum Algorithms</h1>
-		<span>Understand qunatum algorithms and the underlying theories with detailed explanation.</span>
-	</div>
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<img src="./res/ico/github.svg" style="max-width: 3%; max-height: 3%; padding-right: 0.8%">
+  <a class="navbar-brand" href="https://github.com/amannirala13/Quantum-Algorithms">Quantum Algorithms</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./res/about.html">About</a>
+      </li>
+  </ul>
+</div>
+</nav>
+
+	<div class = "container-fluid" style="padding-left: 5%; padding-right: 5%">
+				<h1>Quantum Algorithms</h1>
+				<span>Understand quantum algorithms and the underlying theories with detailed explanation.</span>
+		</div>
+
+
+
+
+<!-- INDEX TABLE -->
 	<div class="container-fluid">
 		<table class = "table">
 			<thead class="thead-dark" align="center">
@@ -34,7 +57,7 @@
 
 			<tbody align="center">
 				<tr>
-					<td>
+					<th scope="row">
 						1
 					</td>
 					<td>
@@ -80,7 +103,7 @@
 
 			<tbody align="center">
 				<tr>
-					<td>
+					<th scope="row">
 						2
 					</td>
 					<td>
@@ -126,6 +149,6 @@
 
 		</table>
 	</div>
-</body>
 
+</body>
 </html>
