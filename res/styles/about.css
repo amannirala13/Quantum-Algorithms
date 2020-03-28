@@ -1,0 +1,17 @@
+	/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #343A40;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 50%
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  background-color: #007BFF;
+}
