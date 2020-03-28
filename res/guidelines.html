@@ -8,7 +8,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="./res/styles/index.css">
+	<link rel="stylesheet" href="../res/styles/guid.css">
 	<link rel = "icon" href="../res/ico/Platonicc.png" 
         type = "image/x-icon"> 
 	 
@@ -29,15 +29,95 @@
         <a class="nav-link" href="../index.html">Home</a>
       </li>
        <li class="nav-item">
-        <a class="nav-link" href="./about.html">About<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="./about.html">About<span class="sr-only"></span></a>
       </li>
   </ul>
 </div>
 </nav>
 
+<div class="container-fluid" style="padding: 3%">
+	<h1 class="display-1">Contributor Guidelines:</h1>
+	<div class="container-fluid" style="padding-left: 2%">
+		<span class="blockquote">Follow the guidelines strictly to get you article approved.</span>
+	</div>
+</div>
+
+<div class="container-fluid" style="padding: 3%">
+	<div class="container-fluid" style="padding-left: 2%">
+		<span class="lead">To start contributing <strong>fork</strong> and <strong>clone</strong> the repository using following command:</span><br><br>
+		<code style="font-size: 110%;padding-left: 2%;"><strong>$ git clone https://github.com/[your_user_name]/Quantum-Algorithms.git</strong></code><br><br>
+		<span class="lead">Once cloned, you can add your articles by <strong>following the guildlines</strong> provided below and send the pull requests to the main repository.</span>
+	</div>
+</div>
+
+<div  class="alert alert-success" style="margin: 5%; margin-top: 3%; padding-top: 5%">
+	<div class = "guid">
+		<div class="container-fluid">
+				<div class="shadow p-3 mb-5 bg-white rounded">
+					<span class="lead">Quantum computing is a field of active research and is governed by the weird world of quantum physics, which is not an easy thing to understand and anyone can easily build the wrong intuition about the topics. So, the article you contribute needs to be <strong>precise</strong> and <strong>straight to the point</strong> with a <strong>friendly literature</strong>. The <strong>correctness of the facts</strong> is the priority and <strong>presentation</strong> is the deciding factor of your article to be approved.</span>
+				</div>
+		</div>
+
+		<div class="container-fluid">
+			<div  class="shadow p-3 mb-5 bg-white rounded">
+				<span class="lead">It is recommended, however, not mandatory to <strong>cite the sources</strong> of your information in any format. The format of citation should be the same throughout the article. This will help the reviewer, and the readers get resources that can support the facts in your article.</span>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div  class="shadow p-3 mb-5 bg-white rounded">
+				<span class="lead">Create a <strong>new directory</strong> with the <strong>title of the article</strong> in the <strong>root directory</strong> and put all the files and directories related to your article in the same folder. <strong>Any changes made in any other pre-existing folders/files should have a detailed explanation about the changes in the PR message</strong> or else, the PR will be rejected.</span>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div  class="shadow p-3 mb-5 bg-white rounded">
+				<span class="lead">Your article should be a <strong>styled HTML file</strong> and none other. If your article has code snippets, it recommended to use a j<strong>upyter-notebook and export it into an HTML file</strong>. If you have a <strong>script file</strong> then, you need to <strong>write proper documentation as an HTML file</strong> with all the theories and explanations included. If you have a <strong>markdown file</strong>, you need to <strong>convert to HTML</strong> and include all the files in the article folder.</span>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div  class="shadow p-3 mb-5 bg-white rounded">
+				<span class="lead">All the <strong>equations and operators</strong> in your article should be properly formatted using tools like <strong>LaTex, MathJax, etc. or else use images.</strong></span>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div  class="shadow p-3 mb-5 bg-white rounded">
+				<span class="lead">You can include <strong>personal donation links</strong>, but <strong>only in your articles</strong>. The donation message and links should be added at the <strong>very end of the article</strong>. You can also include your <strong>social media handles</strong> at the <strong>end of the article.</strong></span>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div  class="shadow p-3 mb-5 bg-white rounded">
+				<span class="lead">If you are ready with all the points mentioned above, create a file called <strong><code>info_temp.txt</code></strong> in the article folder. Provide the following information in the text file as follows:
+				<code>
+					<pre style="color: #003E8C">
+	TITLE: [Title of your Article]
+	BRIEF: [A brief introduction about your article. Not more than 5-8 lines]
+	LINK: [Relative address of the article's html file from the root directory. Eg. "./Quantum Entanglement/quantum_entanglement.html"]
+	NAME: [Your given Full Name]
+	GITHUB PROFILE: [Link of your github profile]
+					</pre>
+				</code>
+					</pre></span>
+			</div>
+		</div>
+
+		<div class="container-fluid">
+			<div  class="shadow p-3 mb-5 bg-white rounded">
+				<span class="lead">When you send the PR, make sure the <strong>PR comment mentions the name of your article and all the changes you are making in detail</strong>. Make sure to <strong>check if you are accidentally changing files from different folders</strong> as it might get your PR disposed. If you did some <strong>changes in other folders deliberately</strong> to fix some problems, <strong>then the comment must mention them all in detail.</strong></span>
+			</div>
+		</div>
+
+	</div>
+</div>
 <!-- FOOTER -->
 <div class="container-fluid" align="center" style="padding-bottom:1%; padding-top: 3%; ">
-	This website is maintained by <a href="https://github.com/amannirala13">amannirala13</a> and <a href="https://github.com/platonicc">Platinocc</a>
+	This website is maintained by <a href="https://github.com/amannirala13">amannirala13</a> and <a href="https://github.com/platonicc">Platinocc</a><br>
+	Copyright &copy; 2020 Aman Nirala
 </div>
 </body>
 </html>
+
+

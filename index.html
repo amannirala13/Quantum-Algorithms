@@ -11,8 +11,6 @@
 	<link rel="stylesheet" href="./res/styles/index.css">
 	<link rel = "icon" href="./res/ico/Platonicc.png" 
         type = "image/x-icon"> 
-	 
-	<script src="./res/scripts/index.js"></script>
 
 	<title>Quantum Algorithms</title>
 </head>
@@ -37,7 +35,9 @@
 
 	<div class = "container-fluid" style="padding: 3%">
 				<h1 class="display-1">Quantum Algorithms</h1>
-				<span class="blockquote" style="padding-left: 2%">Understand quantum algorithms and their underlying theories with detailed explanation.</span>
+				<div class="container-fluid" style="padding-left: 2%">
+					<span class="blockquote">Understand quantum algorithms and their underlying theories with detailed explanation.</span>
+				</div>
 	</div>
 
 	<div class="container-fluid" style="padding: 3%; padding-left: 5%">
@@ -47,7 +47,7 @@
 	<div class="container-fluid" style="padding-bottom: 3%; padding-left: 5%">
 		<h2>Usage</h2>
 		<span class="lead">This website is the part of the <a href="https://github.com/amannirala13/Quantum-Algorithms">quantum-algotihms</a> repository. Below is the table of contents from where you can find all the algorithms and topics included in the project and respective links to their information resources and the link to their location in the repository. You can even click on "show details" to get a very brief information about the topic or algorithm.<br>
-			If you want to contribute to the project, you can send you pull requests full-filling all the <a href = "./res/guidelines.html">guidelines</a> to the primary GitHub repository.
+			If you want to contribute to the project, you can send you pull requests full-filling all the <a href = "./res/guidelines.html"><strong>guidelines</strong></a> to the primary GitHub repository.
 		</span>
 	</div>
 
@@ -58,115 +58,116 @@
 <!-- INDEX TABLE -->
 	<div class="container-fluid">
 		<div class="shadow-lg p-3 mb-5 bg-white rounded">
-		<table class = "table">
-			<thead  class= "thead-dark" align="center">
-				<th scope="col">#</th>
-				<th scope="col">Algorithm</th>
-				<th scope="col">Details</th>
-				<th scope="col">Author</th>
-				<th scope="col">Link</th>
-				<th scope="col">Github<th>
-			</thead>
+			<table class = "table">
+				<thead  class= "thead-dark" align="center">
+					<th scope="col">#</th>
+					<th scope="col">Algorithm</th>
+					<th scope="col">Details</th>
+					<th scope="col">Author</th>
+					<th scope="col">Link</th>
+					<th scope="col">Github<th>
+				</thead>
 
-			<tbody align="center">
-				<tr>
-					<th scope="row">
-						1
-					</th>
-					<td>
-						Quantum Entanglement
-					</td>
-					<td>
-						<button class = "btn btn-primary" data-toggle="collapse" data-target="#q_ent_detail">
-							Show details
-						</button>
-					</td>
-					<td>
-						<a href="https://github.com/amannirala13">
-							Aman Kumar Nirala
-						</a>
-					</td>
-					<td>
-						<a href="./Quantum Entanglement/quantum_entanglement.html">
-							<button class = "btn btn-primary">
-								Read Article
+				<tbody align="center">
+					<tr>
+						<th scope="row">
+							1
+						</th>
+						<td>
+							Quantum Entanglement
+						</td>
+						<td>
+							<button class = "btn btn-primary" data-toggle="collapse" data-target="#q_ent_detail">
+								Show details
 							</button>
-						</a>
-					</td>
-					<td>
-						<a href="https://github.com/amannirala13/Quantum-Algorithms/tree/master/Quantum%20Entanglement">
-							<button class = "btn btn-dark">
-								Visit Github
+						</td>
+						<td>
+							<a href="https://github.com/amannirala13">
+								Aman Kumar Nirala
+							</a>
+						</td>
+						<td>
+							<a href="./Quantum Entanglement/quantum_entanglement.html">
+								<button class = "btn btn-primary">
+									Read Article
+								</button>
+							</a>
+						</td>
+						<td>
+							<a href="https://github.com/amannirala13/Quantum-Algorithms/tree/master/Quantum%20Entanglement">
+								<button class = "btn btn-dark">
+									Visit Github
+								</button>
+							</a>
+						</td>
+					</tr>
+				</tbody>
+
+
+				<tbody>
+					<tr id = q_ent_detail class="collapse in">
+						<td colspan="6">
+								<div class = "alert alert-warning">
+									Quantum Entanglement is a physical phenomenon in which quantum states of multiple subsystems can not be described independently of each other, even though the subsystems are separated to a great distance. Thus any action of wave function collapse on either of the particle can give the certainty about the other particle irrespective of its local system. In this article we have discussed the theory and implementation of Quantum Entanglement in quantum computers using Qiskit.
+								</div>
+						</td>
+					</tr>
+				</tbody>
+
+
+				<tbody align="center">
+					<tr>
+						<th scope="row">
+							2
+						</th>
+						<td>
+							True Random Number Generator
+						</td>
+						<td>
+							<button class = "btn btn-primary" data-toggle="collapse" data-target="#info">
+								Show details
 							</button>
-						</a>
-					</td>
-				</tr>
-			</tbody>
+						</td>
+						<td>
+							<a href="https://github.com/amannirala13">
+								Aman Kumar Nirala
+							</a>
+						</td>
+						<td>
+							<a href="./Random Number Generator/true_random_num.html">
+								<button class = "btn btn-primary">
+									Read Doc
+								</button>
+							</a>
+						</td>
+						<td>
+							<a href="https://github.com/amannirala13/Quantum-Algorithms/tree/master/Random%20Number%20Generator">
+								<button class = "btn btn-dark">
+									Visit Github
+								</button>
+							</a>
+						</td>
+					</tr>
+				</tbody>
 
 
-			<tbody>
-				<tr id = q_ent_detail class="collapse in">
-					<td colspan="6">
-							<div class = "alert alert-warning">
-								Quantum Entanglement is a physical phenomenon in which quantum states of multiple subsystems can not be described independently of each other, even though the subsystems are separated to a great distance. Thus any action of wave function collapse on either of the particle can give the certainty about the other particle irrespective of its local system. In this article we have discussed the theory and implementation of Quantum Entanglement in quantum computers using Qiskit.
-							</div>
-					</td>
-				</tr>
-			</tbody>
+				<tbody>
+					<tr id = info class="collapse in">
+						<td colspan="6">
+								<div class = "alert alert-warning">
+									A random number generator and Visualizer that generates true random numbers (theoritically) by simulating a Qunatum Sysem and plots live graph of the numbers generated. The alogrithm is based on the core concept of superposition and it's uncertainity. We used Q# to generate random numbers and did a live plotting of it using matplotlib in python.
+								</div>
+						</td>
+					</tr>
+				</tbody>
 
-
-			<tbody align="center">
-				<tr>
-					<th scope="row">
-						2
-					</th>
-					<td>
-						True Random Number Generator
-					</td>
-					<td>
-						<button class = "btn btn-primary" data-toggle="collapse" data-target="#info">
-							Show details
-						</button>
-					</td>
-					<td>
-						<a href="https://github.com/amannirala13">
-							Aman Kumar Nirala
-						</a>
-					</td>
-					<td>
-						<a href="./Random Number Generator/true_random_num.html">
-							<button class = "btn btn-primary">
-								Read Doc
-							</button>
-						</a>
-					</td>
-					<td>
-						<a href="https://github.com/amannirala13/Quantum-Algorithms/tree/master/Random%20Number%20Generator">
-							<button class = "btn btn-dark">
-								Visit Github
-							</button>
-						</a>
-					</td>
-				</tr>
-			</tbody>
-
-
-			<tbody>
-				<tr id = info class="collapse in">
-					<td colspan="6">
-							<div class = "alert alert-warning">
-								A random number generator and Visualizer that generates true random numbers (theoritically) by simulating a Qunatum Sysem and plots live graph of the numbers generated. The alogrithm is based on the core concept of superposition and it's uncertainity. We used Q# to generate random numbers and did a live plotting of it using matplotlib in python.
-							</div>
-					</td>
-				</tr>
-			</tbody>
-
-		</table>
-	</div>
+			</table>
+		</div>
 	</div>
 
 <div class="container-fluid" align="center" style="padding-bottom:1%; padding-top: 3%; ">
-	This website is maintained by <a href="https://github.com/amannirala13">amannirala13</a> and <a href="https://github.com/platonicc">Platinocc</a>
+	This website is maintained by <a href="https://github.com/amannirala13">amannirala13</a> and <a href="https://github.com/platonicc">Platinocc</a><br>
+	Copyright &copy; 2020 Aman Nirala
 </div>
 
 </body>
