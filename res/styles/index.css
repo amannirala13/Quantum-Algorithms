@@ -1,0 +1,8 @@
+	@font-face {
+  				font-family: reg;
+  				src: url(./res/font/regular.ttf);
+  				}
+
+	.details{
+		cursor: pointer;
+	}
