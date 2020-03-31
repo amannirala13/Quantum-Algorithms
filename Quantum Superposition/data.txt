@@ -1,0 +1,5 @@
+TITLE:~ Qunatum Comp
+BRIEF:~ A brief introduction about your article. Not more than 5-8 lines
+LINK:~ Relative address of the article's html file from the root directory. Eg. "./Quantum Entanglement/quantum_entanglement.html"
+NAME:~ Your given Full Name
+GITHUB:~ link of your github profile
