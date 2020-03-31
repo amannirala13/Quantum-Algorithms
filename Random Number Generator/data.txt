@@ -1,0 +1,5 @@
+TITLE:~ True Random Number Generator
+BRIEF:~ A random number generator and Visualizer that generates true random numbers (theoritically) by simulating a Qunatum Sysem and plots live graph of the numbers generated. The alogrithm is based on the core concept of superposition and it's uncertainity. We used Q# to generate random numbers and did a live plotting of it using matplotlib in python.
+LINK:~ ./Random Number Generator/true_random_num.html
+NAME:~ Aman Kumar Nirala
+GITHUB:~ https://github.com/amannirala13

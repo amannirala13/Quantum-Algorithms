@@ -1,0 +1,5 @@
+TITLE:~ Quantum Entanglement
+BRIEF:~ Quantum Entanglement is a physical phenomenon in which quantum states of multiple subsystems can not be described independent of each other, even though the subsystems are separated to a great distance. Thus any action of wave function collapse on either of the particle can give the certainty about the other particle irrespective of its local system. In this article we have discussed the theory and implementation of Quantum Entanglement in quantum computers using Qiskit.
+LINK:~ ./Quantum Entanglement/quantum_entanglement.html
+NAME:~ Aman Kumar Nirala
+GITHUB:~ https://github.com/amannirala13
