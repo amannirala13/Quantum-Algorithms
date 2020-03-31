@@ -21,11 +21,13 @@ jobs:
         GITHUB_TOKEN:  ${{secrets.GITHUB_TOKEN}}
     - name: Run Auto index script
       run: python auto_index.py
+      env:
+        CI:  true
     - name: Commit Files
       run: |
          git add .
-         git configure --local user.email "action@github.com"
-         git configure --local user.name "Github Action"
+         git config --local user.email "action@github.com"
+         git config --local user.name "Github Action"
          git commit -m "ci: Automated indexing done" -a | exit 0
     - name: Push changes
       if: github.ref == 'refs/heads/master'
