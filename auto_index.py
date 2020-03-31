@@ -73,6 +73,7 @@ def write_to_html(article, index):
 
 
 article_list = [f.path for f in os.scandir("./") if f.is_dir()]
+reject_list = ["./res", "./git", "./.github"]
 try:
     toc = open('toc.qan', 'r')
     indexed_list = toc.readlines()
@@ -83,6 +84,6 @@ index = len(indexed_list)
 
 for i in range (0, len(article_list)):
     if article_list[i]+"\n" not in indexed_list:
-        if article_list[i] != './res' and article_list[i] != './.git':
+        if article_list[i] not in reject_list:
             index = index+1
             write_to_html(article_list[i],index)
