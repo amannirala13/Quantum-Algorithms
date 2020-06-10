@@ -28,7 +28,7 @@ Quantum Computing is completely a new way of computation that uses quantum pheno
 
 ## 🎓 How to contribute?
 
-At Platonicc we love collaborating and want people to contribute more to our projects and initiatives. If you want to contribute articles or reading materials, please read this [contribution guidelines page](https://amannirala13.github.io/Quantum-Algorithms/res/guidelines.html).
+At Platonicc we love collaborating and want people to contribute more to our projects and initiatives. If you want to contribute articles or reading materials, please read this [contributor's guidelines page](https://amannirala13.github.io/Quantum-Algorithms/res/guidelines.html).
 
 ## Contributors ✨
 
