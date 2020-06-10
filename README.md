@@ -70,8 +70,8 @@ We would love to connect with you on different social medias and platforms, here
 </p>
 
 <p align="center">
-<a href="https://www.facebook.com/amannirala13"><img src="https://img.shields.io/badge/Follow-Facebook-Blue"/></a>
-<a href="https://www.linkedin.com/in/amannirala13"><img src="https://img.shields.io/badge/Follow-LinkedIn-RoyalBlue"/></a>
+<a href="https://www.facebook.com/amannirala13"><img src="https://img.shields.io/badge/Follow-Facebook-RoyalBlue"/></a>
+<a href="https://www.linkedin.com/in/amannirala13"><img src="https://img.shields.io/badge/Follow-LinkedIn-Blue"/></a>
 <a href="https://www.researchgate.net/profile/Aman_Nirala"><img src="https://img.shields.io/badge/Follow-Research Gate-DeepSkyBlue"/></a>
 </p>
 
