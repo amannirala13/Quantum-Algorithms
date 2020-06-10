@@ -73,7 +73,7 @@ def write_to_html(article, index):
 
 
 article_list = [f.path for f in os.scandir("./") if f.is_dir()]
-reject_list = ["./res", "./.git", "./.github"]
+reject_list = ["./res", "./.git", "./.github", "./node_modules"]
 try:
     toc = open('toc.qan', 'r')
     indexed_list = toc.readlines()
