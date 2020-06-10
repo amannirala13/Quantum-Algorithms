@@ -29,3 +29,7 @@ Understand quantum algorithms and their underlying theories with detailed explan
 # Introduction to the repository
 
 Quantum Computing is completely a new way of computation that uses quantum phenomena like superposition and entanglement for solving problems. A quantum computer is different from a classical computer in many aspects, like the way it processes data, stores them and perform operations on them. Thus, an algorithm for a normal/classical computer and a quantum computer differs in many ways. The mathematics and logic that governs a classical computer and a quantum computer are different too. This project is an initiative to put together all the parts of quantum algorithms and explain the theories and mathematics governing them in detail for a better understanding of the topic. The repository contains selected **reading materials** and resources on Quantum Computation and also a blogging platform called [**QAlgo**](https://amannirala13.github.io/Quantum-Algorithms/).
+
+## License
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Famannirala13%2FQuantum-Algorithms.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Famannirala13%2FQuantum-Algorithms?ref=badge_large)
