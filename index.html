@@ -1,85 +1,228 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="stylesheet" href="./res/styles/index.css" />
+    <link rel="icon" href="./res/ico/Platonicc.png" type="image/x-icon" />
 
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="./res/styles/index.css">
-	<link rel = "icon" href="./res/ico/Platonicc.png" 
-        type = "image/x-icon"> 
+    <title>Quantum Algorithms</title>
+  </head>
 
-	<title>Quantum Algorithms</title>
-</head>
+  <body style="color: #343a40;">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <img
+        src="./res/ico/github.svg"
+        style="max-width: 3%; max-height: 3%; padding-right: 0.8%;"
+      />
+      <a
+        class="navbar-brand"
+        href="https://github.com/amannirala13/Quantum-Algorithms"
+        >QAlgo.</a
+      >
 
-<body style="color: #343A40">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./res/about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<img src="./res/ico/github.svg" style="max-width: 3%; max-height: 3%; padding-right: 0.8%">
-	  <a class="navbar-brand" href="https://github.com/amannirala13/Quantum-Algorithms">QAlgo.</a>
+    <div class="container-fluid" style="padding: 3%;">
+      <h1 class="display-1">Quantum Algorithms</h1>
+      <div class="container-fluid" style="padding-left: 2%;">
+        <span class="blockquote"
+          >Understand quantum algorithms and their underlying theories with
+          detailed explanation.</span
+        >
+      </div>
+    </div>
 
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-	    <ul class="navbar-nav mr-auto">
-	      <li class="nav-item active">
-	        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-	      </li>
-	      <li class="nav-item">
-	        <a class="nav-link" href="./res/about.html">About</a>
-	      </li>
-	  </ul>
-	</div>
-	</nav>
+    <div class="container-fluid" style="padding: 3%; padding-left: 5%;">
+      <span class="lead"
+        >Quantum Computing is completely a new way of computation that uses
+        quantum phenomena like superposition and entanglement for solving
+        problems. A quantum computer is different from a classical computer in
+        many aspects, like the way it processes data, stores them and perform
+        operations on them. Thus, an algorithm for a normal/classical computer
+        and a quantum computer differs in many ways. The mathematics and logic
+        that governs a classical computer and a quantum computer are different
+        too. This project is an initiative to put together all the parts of
+        quantum algorithms and explain the theories and mathematics governing
+        them in detail for a better understanding of the topic.</span
+      >
+    </div>
 
-	<div class = "container-fluid" style="padding: 3%">
-				<h1 class="display-1">Quantum Algorithms</h1>
-				<div class="container-fluid" style="padding-left: 2%">
-					<span class="blockquote">Understand quantum algorithms and their underlying theories with detailed explanation.</span>
-				</div>
-	</div>
+    <div class="container-fluid" style="padding-bottom: 3%; padding-left: 5%;">
+      <h2>Usage</h2>
+      <span class="lead"
+        >This website is the part of the
+        <a href="https://github.com/amannirala13/Quantum-Algorithms"
+          >quantum-algotihms</a
+        >
+        repository. Below is the table of contents from where you can find all
+        the algorithms and topics included in the project and respective links
+        to their information resources and the link to their location in the
+        repository. You can even click on "show details" to get a very brief
+        information about the topic or algorithm.<br />
+        If you want to contribute to the project, you can send your pull
+        requests full-filling all the
+        <a href="./res/guidelines.html"><strong>guidelines</strong></a> to the
+        primary GitHub repository.
+      </span>
+    </div>
 
-	<div class="container-fluid" style="padding: 3%; padding-left: 5%">
-		<span class="lead">Quantum Computing is completely a new way of computation that uses quantum phenomena like superposition and entanglement for solving problems. A quantum computer is different from a classical computer in many aspects, like the way it processes data, stores them and perform operations on them. Thus, an algorithm for a normal/classical computer and a quantum computer differs in many ways. The mathematics and logic that governs a classical computer and a quantum computer are different too. This project is an initiative to put together all the parts of quantum algorithms and explain the theories and mathematics governing them in detail for a better understanding of the topic.</span>
-	</div>
+    <div class="container-fluid" align="center">
+      <h3>Table of Content</h3>
+    </div>
 
-	<div class="container-fluid" style="padding-bottom: 3%; padding-left: 5%">
-		<h2>Usage</h2>
-		<span class="lead">This website is the part of the <a href="https://github.com/amannirala13/Quantum-Algorithms">quantum-algotihms</a> repository. Below is the table of contents from where you can find all the algorithms and topics included in the project and respective links to their information resources and the link to their location in the repository. You can even click on "show details" to get a very brief information about the topic or algorithm.<br>
-			If you want to contribute to the project, you can send your pull requests full-filling all the <a href = "./res/guidelines.html"><strong>guidelines</strong></a> to the primary GitHub repository.
-		</span>
-	</div>
+    <!-- INDEX TABLE -->
+    <div class="container-fluid">
+      <div class="shadow-lg p-3 mb-5 bg-white rounded">
+        <table class="table">
+          <thead class="thead-dark" align="center">
+            <th scope="col">#</th>
+            <th scope="col">Algorithm</th>
+            <th scope="col">Details</th>
+            <th scope="col">Author</th>
+            <th scope="col">Link</th>
+            <th scope="col">Github</th>
+            <th></th>
+          </thead>
 
-	<div class="container-fluid" align="center">
-		<h3>Table of Content</h3>
-	</div>
+          <tbody align="center">
+            <tr>
+              <th scope="row">1</th>
+              <td>Quantum Entanglement</td>
+              <td>
+                <button
+                  class="btn btn-primary"
+                  data-toggle="collapse"
+                  data-target="#detail_1"
+                >
+                  Show details
+                </button>
+              </td>
+              <td>
+                <a href="https://github.com/amannirala13">Aman Kumar Nirala</a>
+              </td>
+              <td>
+                <a href="./Quantum Entanglement/quantum_entanglement.html"
+                  ><button class="btn btn-primary">Read Article</button></a
+                >
+              </td>
+              <td>
+                <a
+                  href="https://github.com/amannirala13/Quantum-Algorithms/tree/master/Quantum%20Entanglement"
+                  ><button class="btn btn-dark">Visit Github</button></a
+                >
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr id="detail_1" class="collapse in">
+              <td colspan="6">
+                <div class="alert alert-warning">
+                  Quantum Entanglement is a physical phenomenon in which quantum
+                  states of multiple subsystems can not be described independent
+                  of each other, even though the subsystems are separated to a
+                  great distance. Thus any action of wave function collapse on
+                  either of the particle can give the certainty about the other
+                  particle irrespective of its local system. In this article we
+                  have discussed the theory and implementation of Quantum
+                  Entanglement in quantum computers using Qiskit.
+                </div>
+              </td>
+            </tr>
+          </tbody>
+          <tbody align="center">
+            <tr>
+              <th scope="row">2</th>
+              <td>True Random Number Generator</td>
+              <td>
+                <button
+                  class="btn btn-primary"
+                  data-toggle="collapse"
+                  data-target="#detail_2"
+                >
+                  Show details
+                </button>
+              </td>
+              <td>
+                <a href="https://github.com/amannirala13">Aman Kumar Nirala</a>
+              </td>
+              <td>
+                <a href="./Random Number Generator/true_random_num.html"
+                  ><button class="btn btn-primary">Read Article</button></a
+                >
+              </td>
+              <td>
+                <a
+                  href="https://github.com/amannirala13/Quantum-Algorithms/tree/master/Random%20Number%20Generator"
+                  ><button class="btn btn-dark">Visit Github</button></a
+                >
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr id="detail_2" class="collapse in">
+              <td colspan="6">
+                <div class="alert alert-warning">
+                  A random number generator and Visualizer that generates true
+                  random numbers (theoritically) by simulating a Qunatum Sysem
+                  and plots live graph of the numbers generated. The alogrithm
+                  is based on the core concept of superposition and it's
+                  uncertainity. We used Q# to generate random numbers and did a
+                  live plotting of it using matplotlib in python.
+                </div>
+              </td>
+            </tr>
+          </tbody>
+          <!--71050AC3E762F5B380B440D1661B0201735BA539EDD0E7D39B9DFA37622E7CF3-->
+        </table>
+      </div>
+    </div>
 
-<!-- INDEX TABLE -->
-	<div class="container-fluid">
-		<div class="shadow-lg p-3 mb-5 bg-white rounded">
-			<table class = "table">
-				<thead  class= "thead-dark" align="center">
-					<th scope="col">#</th>
-					<th scope="col">Algorithm</th>
-					<th scope="col">Details</th>
-					<th scope="col">Author</th>
-					<th scope="col">Link</th>
-					<th scope="col">Github<th>
-				</thead>
-
-<tbody align="center"><tr><th scope="row">1</th><td>Quantum Entanglement</td><td><button class = "btn btn-primary" data-toggle="collapse" data-target="#detail_1">Show details</button></td><td><a href="https://github.com/amannirala13">Aman Kumar Nirala</a></td><td><a href="./Quantum Entanglement/quantum_entanglement.html"><button class = "btn btn-primary">Read Article</button></a></td><td><a href="https://github.com/amannirala13/Quantum-Algorithms/tree/master/Quantum%20Entanglement"><button class = "btn btn-dark">Visit Github</button></a></td></tr></tbody><tbody><tr id =detail_1 class="collapse in"><td colspan="6"><div class = "alert alert-warning">Quantum Entanglement is a physical phenomenon in which quantum states of multiple subsystems can not be described independent of each other, even though the subsystems are separated to a great distance. Thus any action of wave function collapse on either of the particle can give the certainty about the other particle irrespective of its local system. In this article we have discussed the theory and implementation of Quantum Entanglement in quantum computers using Qiskit.</div></td></tr></tbody>
-<tbody align="center"><tr><th scope="row">2</th><td>True Random Number Generator</td><td><button class = "btn btn-primary" data-toggle="collapse" data-target="#detail_2">Show details</button></td><td><a href="https://github.com/amannirala13">Aman Kumar Nirala</a></td><td><a href="./Random Number Generator/true_random_num.html"><button class = "btn btn-primary">Read Article</button></a></td><td><a href="https://github.com/amannirala13/Quantum-Algorithms/tree/master/Random%20Number%20Generator"><button class = "btn btn-dark">Visit Github</button></a></td></tr></tbody><tbody><tr id =detail_2 class="collapse in"><td colspan="6"><div class = "alert alert-warning">A random number generator and Visualizer that generates true random numbers (theoritically) by simulating a Qunatum Sysem and plots live graph of the numbers generated. The alogrithm is based on the core concept of superposition and it's uncertainity. We used Q# to generate random numbers and did a live plotting of it using matplotlib in python.</div></td></tr></tbody>
-<!--71050AC3E762F5B380B440D1661B0201735BA539EDD0E7D39B9DFA37622E7CF3-->
-
-			</table>
-		</div>
-	</div>
-
-<div class="container-fluid" align="center" style="padding-bottom:1%; padding-top: 3%; ">
-	This website is maintained by <a href="https://github.com/amannirala13">amannirala13</a> and <a href="https://github.com/platonicc">Platinocc</a><br>
-	Copyright &copy; 2020 Aman Nirala
-</div>
-
-</body>
+    <div
+      class="container-fluid"
+      align="center"
+      style="padding-bottom: 1%; padding-top: 3%;"
+    >
+      This website is maintained by
+      <a href="https://github.com/amannirala13">amannirala13</a> and
+      <a href="https://github.com/platonicc">Platinocc</a><br />
+      Copyright &copy; 2020 Aman Nirala
+    </div>
+  </body>
 </html>

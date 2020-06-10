@@ -62,7 +62,7 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## ❤ Connect and Support
 
-We would love to connect with you on different social medias and platforms, here are the links to all out social-media and coding platform handles where you can follow our work.
+We would love to connect with you on different social media platforms, here are the links to all out social-media and other platform handles where you can follow our work.
 
 <p align="center">
 <a href="https://github.com/amannirala13?tab=followers"><img alt = "github_follow_badge" src="https://img.shields.io/github/followers/amannirala13?label=Follow&style=social"/></a>
